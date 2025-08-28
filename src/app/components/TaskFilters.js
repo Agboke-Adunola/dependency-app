@@ -14,19 +14,19 @@ export default function TaskFilters({ onChange }) {
       <div className="flex space-x-2">
         <button
           onClick={() => handleClick("all")}
-          className={`px-3 py-1 rounded-lg ${
+          className={`px-3 cursor-pointer py-1 rounded-lg ${
             active === "all"
-              ? "bg-fuchsia-600 text-white"
-              : "bg-gray-200 hover:bg-gray-300"
+              ? "bg-fuchsia-600  text-white"
+              : "bg-gray-400 hover:bg-gray-500"
           }`}
         >
           All
         </button>
         <button
           onClick={() => handleClick("active")}
-          className={`px-3 py-1 rounded-lg ${
+          className={`px-3 cursor-pointer py-1 rounded-lg ${
             active === "active"
-              ? "bg-fuchsia-600 text-white"
+              ? "bg-fuchsia-600  text-white"
               : "bg-gray-400 hover:bg-gray-500"
           }`}
         >
@@ -34,9 +34,9 @@ export default function TaskFilters({ onChange }) {
         </button>
         <button
           onClick={() => handleClick("completed")}
-          className={`px-3 py-1 rounded-lg ${
+          className={`px-3 cursor-pointer py-1 rounded-lg ${
             active === "completed"
-              ? "bg-fuchsia-600 text-white"
+              ? "bg-fuchsia-600  text-white"
               : "bg-gray-400 hover:bg-gray-500"
           }`}
         >

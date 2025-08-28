@@ -11,7 +11,6 @@ export default function Navbar() {
         DEPENDENCY <span className="text-xl text-gray-600">App</span>
       </h1>
 
-      {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6">
         <Link href="#features" className="text-gray-600 hover:text-fuchsia-600">
           Features

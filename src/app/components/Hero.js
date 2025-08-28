@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto p-10">
       <div className="md:w-1/2 text-center md:text-left space-y-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-black leading-snug">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#fafafa] leading-snug">
           Stay Organized, <br />
           Boost Your Productivity
         </h2>
